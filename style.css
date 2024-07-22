@@ -1,5 +1,5 @@
 html {
-    --main-color: #2c0a1e;
+    --main-color: #2e0623;
     --secondary-color: #7d4d09;
 }
 
@@ -82,7 +82,10 @@ h1 {
  #header .menuDiv:hover #centerLine {
     width: 100%;
  }
- 
+
+ #header .iconDiv ul {
+    color: aliceblue;
+ }
  
 
 
