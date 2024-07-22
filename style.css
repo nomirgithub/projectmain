@@ -83,9 +83,72 @@ h1 {
     width: 100%;
  }
 
+<<<<<<< HEAD
  #header .iconDiv ul {
     color: aliceblue;
  }
+=======
+ #header .container .menuDiv {
+    position: relative;
+ }
+ 
+ #header .container .menuDiv ul {
+    background-color: white;
+    list-style: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    position: absolute;
+    box-shadow: 0 0 10px;
+    display: none;
+    right: -1.5px;
+    top: 7px;
+
+ }
+
+ #header .container .menuDiv ul .divider {
+    background-color: rgb(151, 150, 150);
+    height: 0.5px;
+ }
+
+ #header .container .menuDiv ul li {
+    text-align: center;
+    padding: 10px 35px;
+    color: var(--main-color);
+    transition: 0.3s;
+ }
+
+ #header .container .menuDiv ul::before{
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent white transparent;
+    top: -20px;
+    right: 25px;
+
+ }
+ #header .container .menuDiv:hover ul {
+    display: block;
+ }
+
+ /* end header */
+
+/*start landing*/
+#landingDiv {
+    background-image: url(imagespro/compu.jpeg);
+    size: cover;
+    position: relative;
+}
+
+
+
+
+
+/*end landing*/
+
+>>>>>>> 16673d2c266a5f1f54cee81bf944f6455ae2b471
  
 
 
